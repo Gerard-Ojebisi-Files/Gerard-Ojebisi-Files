@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.you-container {
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading .text-profile {
+    margin-left: 20px;
+}
+
+.img-div img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.text-profile p {
+    color: rgb(148, 148, 148);
+}
+
+.btn-div {
+    display: flex;
+}
+
+.text-profile .btn-div button {
+    background-color:  rgb(39, 39, 39);
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    border-radius: 16px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.text-profile .btn-div button span {
+    margin-left: 5px;
+}
+
+.main-body {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.group {
+    margin: 50px 0;
+    width: 100%;
+}
+
+.main-body .group a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clip-group p {
+    color: rgb(148, 148, 148);
+}
+
+.clip-group p {
+    margin-left: 10px;
+}
+
+.lower-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.lower-div .down {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.lower-div div {
+    padding-left: 0;
+}
+
+.down-2, .down-3 {
+    margin-left: 4px !important;
+}
+
+.img-div2 {
+    position: relative;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.time {
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 8px;
+}
+
+.top-text2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.top-text2 a {
+    position: relative;
+    width: 16%;
+}
+
+.top-text2 .view-all-btn {
+    padding: 7px 15px;
+    background-color: black !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 18px;
+    font-size: 17px;
+    cursor: pointer;
+    justify-self: flex-end;
+}
+
+.view-all-btn:hover {
+    background-color: rgba(100, 100, 100, 0.616) !important;
+}
+
+.top-little-text {
+    color: gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.playlist-group h4 {
+    color: grey;
+}
+
+.playlist-group h4:hover {
+    color: white;
+}
+
+.playlist-group .down {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.playlist-group p, .playlist-group h3 {
+    margin-left: 0 !important;
+}

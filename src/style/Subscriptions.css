@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.subscription-container {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.top-text {
+    width: 100%;
+}
+
+.top-text h1 {
+    float: left;
+}
+
+.top-text div {
+    float: right;
+}
+
+.top-text .right a {
+    color: rgb(96, 96, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 40%;
+    padding: 5px 20px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 18px;
+}
+
+.top-text .right a:hover {
+    background: #263850;
+    border-color: transparent;
+}
+
+.img {
+    width: 380px;
+    height: 200px;
+}
+
+.title-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 390px;
+}
+
+.title-text .left, .title-text .right {
+    margin: 0;
+    padding: 0;
+}
+
+.title-text .left, .title-text .right h2 {
+    margin-top: 5px;
+}
+
+.title-text .left, .title-text .right h2:hover {
+    color: white;
+}
+
+.title-text .left, .title-text .right p {
+    padding-top: 5px;
+}
+
+.hover-text-white:hover {
+    color: white;
+}
+
+.title-text .left {
+    width: 36px;
+    height: 36px;
+}
+
+.title-text .left img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.title-text .right {
+    margin-left: 10px;
+    width: 80%;
+}
+
+.img-title {
+    color: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.title-text .right p {
+    color: rgb(165, 165, 165);
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.video {
+    margin-top: 20px;
+}
